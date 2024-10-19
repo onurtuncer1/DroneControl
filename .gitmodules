@@ -1,0 +1,6 @@
+[submodule "vendor/px4_msgs"]
+	path = vendor/px4_msgs
+	url = https://github.com/PX4/px4_msgs.git
+[submodule "vendor/px4-ros2-interface-lib"]
+	path = vendor/px4-ros2-interface-lib
+	url = https://github.com/dakejahl/px4-ros2-interface-lib.git
