@@ -11,6 +11,12 @@ find_package(px4_ros2 REQUIRED)
 add_subdirectory(src/WaypointReceiver)
 add_subdirectory(src/AutonomousMode)
 
+# Include the test directory
+if(BUILD_TESTING)
+  add_subdirectory(test)
+endif()
+
+
 # Add an executable for the main application (if any)
 # add_executable(main_app src/main.cpp)
 
